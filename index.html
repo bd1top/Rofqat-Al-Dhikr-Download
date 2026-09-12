@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#123F31">
 
-  <title>تحميل رفقة الذكر للأندرويد</title>
-  <meta name="description" content="تحميل تطبيق رفقة الذكر Rofqat Al-Dhikr للأندرويد">
+  <title>تحميل رفقة الذكر</title>
+  <meta name="description" content="تحميل تطبيق رفقة الذكر Rofqat Al-Dhikr">
 
   <style>
     * {
@@ -105,7 +105,21 @@
       box-shadow: 0 18px 36px rgba(0, 0, 0, 0.22);
     }
 
-    .android {
+    .ios-button {
+      margin-top: 12px;
+      background: rgba(255, 255, 255, 0.10);
+      color: #E3F0E9;
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      box-shadow: none;
+      cursor: default;
+    }
+
+    .ios-button:hover {
+      transform: none;
+      box-shadow: none;
+    }
+
+    .icon {
       font-size: 22px;
     }
 
@@ -114,6 +128,12 @@
       color: #C7DACE;
       font-size: 14px;
       line-height: 1.8;
+    }
+
+    .ios-note {
+      margin-top: 10px;
+      color: #AFC5B9;
+      font-size: 13px;
     }
 
     .notice {
@@ -146,11 +166,12 @@
     </p>
 
     <section class="card">
+
       <a
         class="download-button"
         href="https://github.com/bd1top/Rofqat-Al-Dhikr-Download/releases/download/v1.0.0/Rofqat-Al-Dhikr-1.0.0.apk"
       >
-        <span class="android">⬇</span>
+        <span class="icon">⬇</span>
         <span>تحميل للأندرويد</span>
       </a>
 
@@ -159,10 +180,23 @@
         Android 7.0 أو أحدث
       </div>
 
-      <div class="notice">
-        تحميل مباشر بصيغة APK.<br>
-        هذه نسخة توزيع مؤقتة قبل الإطلاق الرسمي عبر Google Play.
+      <div
+        class="download-button ios-button"
+        aria-disabled="true"
+      >
+        <span class="icon"></span>
+        <span>للآيفون — قريبًا</span>
       </div>
+
+      <div class="ios-note">
+        سيتوفر على App Store بإذن الله
+      </div>
+
+      <div class="notice">
+        تحميل أندرويد مباشر بصيغة APK.<br>
+        نسخة التوزيع الحالية مؤقتة قبل الإطلاق الرسمي عبر المتاجر.
+      </div>
+
     </section>
 
     <footer>
